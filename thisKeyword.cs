@@ -34,10 +34,12 @@ namespace ThisExample
     {
         static void Main(string[] args)
         {
-            Book cBook = new Book("Walden; or, Life in the Woods", "Henry David Thoreau");
-
+           Book cBook = new Book("Walden; or, Life in the Woods", "Henry David Thoreau");
+            Book dBook = new Book("Strange Case of Dr. Jekyll and Mr. Hyde", "Robert Louis Stevenson");
 
             Console.WriteLine("{0} is the author of {1}.", cBook.GetAuthor(), cBook.GetName());
+            Console.WriteLine("...and...");
+            Console.WriteLine("{0} is the author of {1}.", dBook.GetAuthor(), dBook.GetName());
 
             Console.ReadLine();
         }
