@@ -29,10 +29,10 @@ namespace SerialBLOBization
             formatter.Serialize(stream, greet);
             stream.Close();
 
-            /*stream = File.OpenRead(filename);
+            stream = File.OpenRead(filename);
             Console.WriteLine("Deserializing object...");
             var ReGreet = (string)formatter.Deserialize(stream);
-            stream.Close();*/
+            stream.Close();
 
             Console.WriteLine();
             Console.WriteLine("Press Enter key");
